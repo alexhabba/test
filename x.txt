@@ -1,3 +1,15 @@
-Dfhjkfsdak
-Fsdfjhsdbf
-Dfsdafjk
+CREATE TABLE IF NOT EXISTS table5 (
+id INT PRIMARY KEY AUTO_INCREMENT,
+txt1 VARCHAR(100) DEFAULT 'text',
+txt2 VARCHAR(100) COMMENT 'text'
+);
+SHOW TABLES;
+DESC table5;
+
+
+
+CREATE TABLE IF NOT EXISTS table5 (
+AS
+);
+SHOW TABLES;
+DESC table5;
